@@ -1,31 +1,4 @@
 
-.. image:: https://github.com/SafeExamBrowser/seb-server/actions/workflows/buildReporting.yml/badge.svg?branch=master
-    :target: https://github.com/SafeExamBrowser/seb-server/actions
-.. image:: https://readthedocs.org/projects/seb-server/badge/?version=latest
-    :target: https://seb-server.readthedocs.io/en/latest/?badge=latest
-.. image:: https://codecov.io/gh/SafeExamBrowser/seb-server/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/SafeExamBrowser/seb-server
-.. image:: https://img.shields.io/github/languages/code-size/SafeExamBrowser/seb-server
-    :target: https://github.com/SafeExamBrowser/seb-server
-
-Development:
-
-.. image:: https://github.com/SafeExamBrowser/seb-server/actions/workflows/buildReporting.yml/badge.svg?branch=development
-    :target: https://github.com/SafeExamBrowser/seb-server/actions
-.. image:: https://codecov.io/gh/SafeExamBrowser/seb-server/branch/development/graph/badge.svg
-    :target: https://codecov.io/gh/SafeExamBrowser/seb-server
-.. image:: https://img.shields.io/github/last-commit/SafeExamBrowser/seb-server/development?logo=github
-    :target: https://github.com/SafeExamBrowser/seb-server/tree/development
-
-
----------
-
-**Note regarding to** `CVE-2021-44228 <https://nvd.nist.gov/vuln/detail/CVE-2021-44228>`_: SEB Server is **not affected** by the vulnerability. For more information please read `Log4J2 Vulnerability and Spring Boot <https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot>`_
-
-However, to prevent security scanner to alert false-positives we decided to make a patch for the latest version of SEB Server (v1.2.6) including the Log4j 2.16.0 library. If you want to update please make sure your installation refer to version v1.2-stable, v1.2-latest or v1.2.6. Then simply make a update/rebuild of your seb-server docker image.
-
----------
-
 About
 -----
 The Safe Exam Browser Server web application simplifies and centralizes the configuration of Safe Exam Browser clients for exams. It interacts with a learning management or exam system for setting up and conducting e-assessments with Safe Exam Browser. It also improves security by allowing to monitor connected Safe Exam Browser clients in real time during e-assessments. 
