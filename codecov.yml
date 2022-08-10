@@ -1,0 +1,15 @@
+coverage:
+  precision: 2
+  round: down
+  range: "40...100"
+  status:
+    project:
+      default:
+        threshold: 5%
+    patch: off
+  
+github_checks:
+    annotations: false
+    
+fixes:
+  -"::seb-server/"
