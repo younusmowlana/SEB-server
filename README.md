@@ -1,3 +1,4 @@
+
 .. image:: https://github.com/SafeExamBrowser/seb-server/actions/workflows/buildReporting.yml/badge.svg?branch=master
     :target: https://github.com/SafeExamBrowser/seb-server/actions
 .. image:: https://readthedocs.org/projects/seb-server/badge/?version=latest
